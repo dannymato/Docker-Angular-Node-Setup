@@ -3,7 +3,7 @@ import time
 
 
 while True:
-    print('#'*5 + 'New Data' + '#'*5)
+    print('Destination|Source|# of Connections')
     output = []
     with open('/tmp/netfilterlog', 'r') as csvfile:
         reader = csv.reader(csvfile, delimiter=',')
